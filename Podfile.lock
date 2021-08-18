@@ -1,0 +1,217 @@
+PODS:
+  - AARatingBar (1.2)
+  - Alamofire (4.9.1)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - FBSDKCoreKit (9.2.0):
+    - FBSDKCoreKit/Basics (= 9.2.0)
+    - FBSDKCoreKit/Core (= 9.2.0)
+  - FBSDKCoreKit/Basics (9.2.0)
+  - FBSDKCoreKit/Core (9.2.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (9.2.0):
+    - FBSDKLoginKit/Login (= 9.2.0)
+  - FBSDKLoginKit/Login (9.2.0):
+    - FBSDKCoreKit (~> 9.2.0)
+  - FDWaveformView (5.0.1)
+  - Firebase/Auth (7.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 7.10.0)
+  - Firebase/CoreOnly (7.10.0):
+    - FirebaseCore (= 7.10.0)
+  - FirebaseAuth (7.10.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GTMSessionFetcher/Core (~> 1.4)
+  - FirebaseCore (7.10.0):
+    - FirebaseCoreDiagnostics (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.10.0):
+    - GoogleDataTransport (~> 8.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30908.0)
+  - FSPagerView (0.8.3)
+  - GoogleDataTransport (8.4.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.3.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.3.1)"
+  - GoogleUtilities/Reachability (7.3.1):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.2.1):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.5.0)
+  - IQKeyboardManager (6.5.6)
+  - Kingfisher (4.10.1)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - KRPullLoader (1.3.0)
+  - MASegmentedControl (0.0.5)
+  - MiniPlayer (1.0.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - OneSignal (2.16.1)
+  - PromisesObjC (1.2.12)
+  - ScalingCarousel (3.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftKeychainWrapper (4.0.1)
+  - SwiftMessages (8.0.3):
+    - SwiftMessages/App (= 8.0.3)
+  - SwiftMessages/App (8.0.3)
+  - SwiftValidator (4.0.0)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.1)
+  - "UITextView+Placeholder (1.4.0)"
+  - UIViewUseful (0.1.1)
+  - VACalendar (1.3)
+  - WMSegmentControl (2.2)
+  - ZAlertView (1.0.4)
+
+DEPENDENCIES:
+  - AARatingBar
+  - Alamofire (= 4.9.1)
+  - FBSDKLoginKit
+  - FDWaveformView
+  - Firebase/Auth
+  - FSPagerView
+  - GoogleSignIn
+  - IQKeyboardManager
+  - Kingfisher (~> 4.0)
+  - KRProgressHUD
+  - KRPullLoader
+  - MASegmentedControl
+  - MiniPlayer
+  - OneSignal
+  - ScalingCarousel
+  - SVProgressHUD
+  - SwiftKeychainWrapper
+  - SwiftMessages
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - SwiftyJSON
+  - Toast-Swift (~> 5.0.1)
+  - "UITextView+Placeholder"
+  - UIViewUseful
+  - VACalendar
+  - WMSegmentControl
+  - ZAlertView (~> 1.0.4)
+
+SPEC REPOS:
+  trunk:
+    - AARatingBar
+    - Alamofire
+    - AppAuth
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FDWaveformView
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FSPagerView
+    - GoogleDataTransport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IQKeyboardManager
+    - Kingfisher
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - KRPullLoader
+    - MASegmentedControl
+    - MiniPlayer
+    - nanopb
+    - OneSignal
+    - PromisesObjC
+    - ScalingCarousel
+    - SVProgressHUD
+    - SwiftKeychainWrapper
+    - SwiftMessages
+    - SwiftyJSON
+    - Toast-Swift
+    - "UITextView+Placeholder"
+    - UIViewUseful
+    - VACalendar
+    - WMSegmentControl
+    - ZAlertView
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: d370353b7a0ce758a53b189c81e485dcd53c99a4
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  AARatingBar: dc54d24687ae97688ffdb29738332d0bc5c0c09f
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  FBSDKCoreKit: dace5abafc2fd9272733e6d027bcf18102712117
+  FBSDKLoginKit: 43f377b451d391f5bc9dd774f51a391db1072029
+  FDWaveformView: c188be613947273cc83d6f0056505f60e6c4b9ac
+  Firebase: fffddd0bab8677d07376538365faa93ff3889b39
+  FirebaseAuth: 675f2c4eb4426e7c58a78a89965a6530e7863535
+  FirebaseCore: ec566d917b2195fc2610aeb148dae99f57a788f9
+  FirebaseCoreDiagnostics: 5662a3823ffcc0acbaa9a21ba5ed302fac634705
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: e1d9ed4e544fc32a93e00e721400cbc3f377200d
+  GTMAppAuth: 5b53231ef6920f149ab84b2969cb0ab572da3077
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  KRPullLoader: c81594d578c90f46c1fe539b8d9a6a581ce3bdb0
+  MASegmentedControl: 9b58f9ba3a562a739b63b29e4ca2b9dc4d9c62cb
+  MiniPlayer: 64deadeded312bf4517b7b9645f49e1269d81493
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  OneSignal: 5f6514ec2b931306eb067acb124afbb2e49970af
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  ScalingCarousel: d40f0ce438af5cfb2225e2f723f7161597961128
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  SwiftMessages: 063ec9ffea3ffa7d17ba595157a9ec78e4fe045f
+  SwiftValidator: 249b6b3ae3b294266c5b9de134d94f18f2d5aa47
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+  UIViewUseful: 3407c352bf22b65980c8e3cf9ceb4c282a2c0701
+  VACalendar: 3e5a001cbf437ebed2bcfc747f3187e555d65175
+  WMSegmentControl: 4bb3a61e28cd0a0fcfcf932bec1f5795835b9f3f
+  ZAlertView: 59fffdb4e37a01df461835566d5101052b8af953
+
+PODFILE CHECKSUM: a1f8773a555ba80c520653ebbfb510e23017634e
+
+COCOAPODS: 1.10.1
