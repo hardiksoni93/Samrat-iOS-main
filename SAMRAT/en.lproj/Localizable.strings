@@ -1,0 +1,138 @@
+/* 
+  Localizable.strings
+  SAMRAT
+
+  Created by Keyur Baravaliya on 10/05/21.
+  
+*/
+
+"settings" = "Settings";
+"language" = "Language";
+"notification" = "Notification";
+"myAccount" = "My Account";
+"FAQs" = "FAQs";
+"contactUs" = "Contact Us";
+"termsAndConditions" = "Terms & Conditions";
+"aboutUs" = "About Us";
+"cancellationPolicy" = "Cancellation Policy";
+"privacyPolicy" = "Privacy Policy";
+"login" = "Login";
+"logout" = "Logout";
+"on" = "ON";
+"off" = "OFF";
+"yes" = "Yes";
+"no" = "No";
+"gallery" = "Gallery";
+"forgotPassword" = "Forgot Password?";
+"emailMobile"="Email/Mobile";
+"password"="Password";
+"confirmPassword" = "Confirm Password";
+"agreeTermsCondition" = " Agree with Terms and Conditions";
+"signInWithGoogle" = " Sign In With Google";
+"signInWithFacebook" = " Sign In With Facebook";
+"signInWithApple" = " Sign In With Apple";
+"ifDontHaveAccount" = "If you don't have an account";
+"registration" = "Registration";
+"alert" = "Alert";
+"name" = "Name";
+"email" = "Email";
+"signUp" = "Sign Up";
+"mobile" = "Mobile";
+"home" = "Home";
+"singers" = "Singers";
+"gallery" = "Gallery";
+"settings" = "Settings";
+"categories" = "Categories";
+"singersList" = "Singers List";
+"musiciansList" = "Musicians List";
+"murf" = "Murf";
+"noDataFound" = "No Data Found";
+
+"bookingDate" = "Booking date";
+"selectMusicians" = "Select Musicians";
+"chooseCustom" = "Choose Custom";
+"chooseDefault" = "Choose Default";
+"next" = "Next";
+"done" = "Done";
+
+
+"SINGER" = "SINGER";
+"bookNow"="Book Now";
+
+
+
+//MARK:- Payment screen txt
+"bookingDetails"="Booking Details";
+"singerName"="Singer Name";
+"musicians"="Musicians";
+"date"="Date";
+"paymentSummery"="Payment Summery";
+"total"="Total";
+"onlinePayment"="Online Payment";
+"bookingAmount" = "Booking Amount";
+"paymentOptions" = "Payment Options";
+"cashOndelivery" = "Cash on delivery";
+"knet" = "Knet";
+"creditCard" = "Credit Card";
+"pay" = "Pay";
+
+
+"newPwd" = "New Password";
+"oldPwd" = "Old Password";
+"submit" = "Submit";
+
+
+//MARK:- My Accoun Screen
+"editProfile"="Edit Profile";
+"manageBookings" = "Manage Bookings";
+"changePassword" = "Change Password";
+
+
+//MARK:- Payment Suceessful
+"paymentSuccessful" = "PAYMENT SUCCESSFUL";
+"backToHome" = "Back to Home";
+"paymentSuccess"="PAYMENT SUCCESS";
+
+
+//MARK;- My Profile screen
+"address" = "Address";
+"update" = "Update";
+
+
+//MARK:- Manage Booking
+"myBookings" = "My Bookings";
+"upcoming" = "Upcoming";
+"previous" = "Previous";
+
+
+"message" = "Message";
+"ok" = "OK";
+
+
+
+
+
+
+//MARK:- Alert
+"wouldYouLikeLogOut" = "Would you like to Logout?";
+"pEntername" = "Please enter name";
+"pEnterMobilenumber" = "Please enter mobile number";
+"pEnterValidMobileNumber" = "Please enter valid mobile number";
+"pEnterCp" = "Please enter confirm password";
+"passwrodNotMatch" = "Your password and confirm password do not match";
+"pEnterEmailAddress" = "Please enter your email address";
+"pEnterValidEmailAddress" = "Please enter valid email address.";
+"pEnterPassword" = "Please enter your Password";
+"pwdLengthAlert"="Password length should be 6 digits";
+"youmustAgreeTermsCondition" = "You must agree with the terms and conditions.";
+"pleaseCheckInternetConnection"="Please check your Internet connection and try again!";
+"somethingWentWrong"="Something went wrong";
+"pSelectMusician" = "Please select musicians";
+
+"pEnterOldPwd" = "Please enter old password";
+"pEnterNewPwd" = "Please enter new password";
+
+
+"pEnterMesage" = "Please enter Messages";
+"pAllowToAccessEmail"="Please allow to access email for social login";
+

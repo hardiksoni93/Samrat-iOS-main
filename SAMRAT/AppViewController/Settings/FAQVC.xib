@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FAQVC" customModule="SAMRAT" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="o95-yF-ohf" id="rHC-iV-k3B"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SAMRAT_BG" translatesAutoresizingMaskIntoConstraints="NO" id="tPF-ro-5Xa">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="o95-yF-ohf">
+                    <rect key="frame" x="20" y="44" width="374" height="818"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.090196078430000007" green="0.1215686275" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="tPF-ro-5Xa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2Cg-sB-Gw7"/>
+                <constraint firstAttribute="bottom" secondItem="tPF-ro-5Xa" secondAttribute="bottom" id="4He-gL-ort"/>
+                <constraint firstItem="o95-yF-ohf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="7lR-Bg-JPU"/>
+                <constraint firstItem="tPF-ro-5Xa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="E8t-8R-Ncl"/>
+                <constraint firstItem="o95-yF-ohf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Gc1-Tg-0LD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tPF-ro-5Xa" secondAttribute="trailing" id="eFn-jJ-B1C"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="o95-yF-ohf" secondAttribute="bottom" id="pBU-4t-Fpi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="o95-yF-ohf" secondAttribute="trailing" constant="20" id="qUU-fx-Z8K"/>
+            </constraints>
+            <point key="canvasLocation" x="-64" y="49"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SAMRAT_BG" width="359.5" height="640"/>
+    </resources>
+</document>

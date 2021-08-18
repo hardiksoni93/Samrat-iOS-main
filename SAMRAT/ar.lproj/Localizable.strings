@@ -1,0 +1,137 @@
+/* 
+  Localizable.strings
+  SAMRAT
+
+  Created by Keyur Baravaliya on 10/05/21.
+  
+*/
+"settings" = "الإعدادات";
+"language" = "اللغة";
+"notification" = "التنبيهات";
+"myAccount" = "My Account";
+"FAQs" = "FAQs";
+"contactUs" = "اتصل بنا";
+"termsAndConditions" = "الشروط والأحكام";
+"aboutUs" = "نبذة عنا";
+"cancellationPolicy" = "Cancellation Policy";
+"privacyPolicy" = "سياسة الخصوصية";
+"login" = "Login";
+"logout" = "تسجيل خروج";
+"on" = "على";
+"off" = "OFF";
+"yes" = "نعم";
+"no" = "لا";
+"gallery" = "Gallery";
+"forgotPassword" = "?نسيان كلمة السر";
+"emailMobile"="البريد الالكتروني/الهاتف";
+"password"="كلمة السر";
+"confirmPassword" = "تأكيد كلمة السر";
+"agreeTermsCondition" = " Agree with Terms and Conditions ";
+"signInWithGoogle" = " إستمرار عبر  جوجل";
+"signInWithFacebook" = " إستمرار عبر فيس بوك";
+"signInWithApple" = " Sign In With Apple ";
+"ifDontHaveAccount" = "If you don't have an account";
+"registration" = "التسجيل";
+"alert" = "Alert";
+"name" = "Name";
+"email" = "البريد الالكتروني";
+"signUp" = "التسجيل";
+"mobile" = "هاتف";
+"home" = "منزل";
+"singers" = "Singers";
+"gallery" = "الاستديو";
+"settings" = "الإعدادات";
+"categories" = "الاقسام";
+"singersList" = "Singers List";
+"musiciansList" = "Musicians List";
+"murf" = "Murf";
+"noDataFound" = "لا يوجد بيانات";
+
+"bookingDate" = "Booking date";
+"selectMusicians" = "Select Musicians";
+"chooseCustom" = "Choose Custom";
+"chooseDefault" = "Choose Default";
+"next" = "تم";
+"done" = "Done";
+
+"SINGER" = "SINGER";
+"bookNow"="Book Now";
+
+
+//MARK:- Payment screen txt
+"bookingDetails"="Booking Details";
+"singerName"="Singer Name";
+"musicians"="Musicians";
+"date"="التاريخ";
+"paymentSummery"="Payment Summery";
+"total"="مجموع";
+"onlinePayment"="Online Payment";
+"bookingAmount" = "Booking Amount";
+"paymentOptions" = "Payment Options";
+"cashOndelivery" = "Cash on delivery";
+"knet" = "كي نت";
+"creditCard" = "بطاقة الإئتمان";
+"pay" = "Pay";
+
+
+"newPwd" = "كلمة السر الجديدة";
+"oldPwd" = "كلمة السر القديمة";
+"submit" = "تأكيد";
+
+
+//MARK:- My Accoun Screen
+"editProfile"="تعديل الملف الشخصي";
+"manageBookings" = "Manage Bookings";
+"changePassword" = "تغيير كلمة السر";
+
+
+//MARK:- Payment Suceessful
+"paymentSuccessful" = "PAYMENT SUCCESSFUL";
+"backToHome" = "Back to Home";
+"paymentSuccess"="PAYMENT SUCCESS";
+
+
+//MARK;- My Profile screen
+"address" = "العنوان";
+"update" = "تحديث";
+
+
+//MARK:- Manage Booking
+"myBookings" = "My Bookings";
+"upcoming" = "Upcoming";
+"previous" = "Previous";
+
+
+"message" = "رسالة";
+"ok" = "حسنا";
+
+
+
+
+//MARK:- Alert text
+"wouldYouLikeLogOut" = "Would you like to Logout?";
+"pEntername" = "الرجاء إدخال الاسم";
+"pEnterMobilenumber" = "الرجاء إدخال رقم الهاتف المحمول";
+"pEnterValidMobileNumber" = "يرجى إدخال رقم الهاتف الصحيح";
+"pEnterCp" = "Please enter confirm password";
+"passwrodNotMatch" = "Your password and confirm password do not match";
+"pEnterEmailAddress" = "الرجاء إدخال عنوان البريد الإلكتروني الخاص بك";
+"pEnterValidEmailAddress" = "الرجاء إدخال بريد إلكتروني صحيح";
+"pEnterPassword" = "Please enter your Password";
+"pwdLengthAlert"="يجب أن تتكون كلمة المرور من 6 أرقام";
+"youmustAgreeTermsCondition" = "You must agree with the terms and conditions.";
+"pleaseCheckInternetConnection"="Please check your Internet connection and try again!";
+"somethingWentWrong"="هناك خطأ ما";
+"pSelectMusician" = "Please select musicians!";
+
+
+"pEnterOldPwd" = "الرجاء إدخال كلمة المرور القديمة";
+"pEnterNewPwd" = "الرجاء إدخال كلمة المرور الجديدة";
+
+"pEnterMesage" = "Please enter Messages";
+"pAllowToAccessEmail"="Please allow to access email for social login";
+
+
+
+
+

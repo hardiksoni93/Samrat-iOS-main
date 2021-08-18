@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MultipleSingersMusicianbookVC" customModule="SAMRAT" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBookNow" destination="2M5-Uc-KH8" id="f75-lY-eiV"/>
+                <outlet property="segmentControl" destination="jFo-4Y-iZB" id="ML0-0Z-qDm"/>
+                <outlet property="segmentOutlet" destination="yYY-9E-cQV" id="sng-Do-K6T"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewBG" destination="FdW-ZZ-OpZ" id="ayb-YZ-mwy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SAMRAT_MUSICSELECTION" translatesAutoresizingMaskIntoConstraints="NO" id="FdW-ZZ-OpZ">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bp4-A5-hrf">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jFo-4Y-iZB" customClass="HBSegmentedControl" customModule="SAMRAT" customModuleProvider="target">
+                            <rect key="frame" x="77" y="50" width="260" height="41"/>
+                            <subviews>
+                                <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eld-Hu-zqz">
+                                    <rect key="frame" x="64.5" y="5" width="131" height="31"/>
+                                    <subviews>
+                                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yYY-9E-cQV">
+                                            <rect key="frame" x="0.0" y="0.0" width="131" height="32"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <segments>
+                                                <segment title="First"/>
+                                                <segment title="Second"/>
+                                            </segments>
+                                            <color key="selectedSegmentTintColor" name="Color"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onSegmentValueChange:" destination="-1" eventType="valueChanged" id="mKd-Yv-BdY"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="yYY-9E-cQV" secondAttribute="trailing" id="1g7-3w-kLh"/>
+                                        <constraint firstItem="yYY-9E-cQV" firstAttribute="top" secondItem="eld-Hu-zqz" secondAttribute="top" id="9wL-Cg-i5L"/>
+                                        <constraint firstAttribute="height" constant="31" id="KK1-Dj-ReB"/>
+                                        <constraint firstItem="yYY-9E-cQV" firstAttribute="leading" secondItem="eld-Hu-zqz" secondAttribute="leading" id="XFw-2S-pIr"/>
+                                        <constraint firstAttribute="bottom" secondItem="yYY-9E-cQV" secondAttribute="bottom" id="vfk-GO-qEn"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="eld-Hu-zqz" firstAttribute="centerY" secondItem="jFo-4Y-iZB" secondAttribute="centerY" id="afy-7U-Km7"/>
+                                <constraint firstItem="eld-Hu-zqz" firstAttribute="centerX" secondItem="jFo-4Y-iZB" secondAttribute="centerX" id="kca-RR-WEu"/>
+                                <constraint firstAttribute="height" constant="41" id="oKj-mh-5nb"/>
+                                <constraint firstAttribute="width" constant="260" id="rbK-wY-Y57"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20.5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2M5-Uc-KH8">
+                            <rect key="frame" x="107" y="161" width="200" height="40"/>
+                            <color key="backgroundColor" name="Color"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="JVa-s3-0u2"/>
+                                <constraint firstAttribute="height" constant="40" id="hhK-0S-40h"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                            <state key="normal" title="Next">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="onNext:" destination="-1" eventType="touchUpInside" id="2i8-93-Dsu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="jFo-4Y-iZB" firstAttribute="centerX" secondItem="Bp4-A5-hrf" secondAttribute="centerX" id="Iad-zv-7Ff"/>
+                        <constraint firstItem="2M5-Uc-KH8" firstAttribute="top" secondItem="jFo-4Y-iZB" secondAttribute="bottom" constant="70" id="Qm6-AM-9IH"/>
+                        <constraint firstItem="jFo-4Y-iZB" firstAttribute="top" secondItem="Bp4-A5-hrf" secondAttribute="top" constant="50" id="b7J-i8-54e"/>
+                        <constraint firstItem="2M5-Uc-KH8" firstAttribute="centerX" secondItem="Bp4-A5-hrf" secondAttribute="centerX" id="pdK-rq-WWV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FdW-ZZ-OpZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="9F0-Ii-z73"/>
+                <constraint firstItem="Bp4-A5-hrf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Jp5-mT-Cfw"/>
+                <constraint firstAttribute="bottom" secondItem="FdW-ZZ-OpZ" secondAttribute="bottom" id="NOd-iQ-fTm"/>
+                <constraint firstItem="FdW-ZZ-OpZ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="XR0-6j-3V5"/>
+                <constraint firstItem="Bp4-A5-hrf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ycm-Js-9pq"/>
+                <constraint firstItem="FdW-ZZ-OpZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fGf-aR-pnT"/>
+                <constraint firstItem="Bp4-A5-hrf" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="gdg-aW-zHd"/>
+                <constraint firstItem="Bp4-A5-hrf" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="nuy-MN-Q94"/>
+            </constraints>
+            <point key="canvasLocation" x="122" y="47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SAMRAT_MUSICSELECTION" width="375" height="667"/>
+        <namedColor name="Color">
+            <color red="0.80000000000000004" green="0.54117647058823526" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
